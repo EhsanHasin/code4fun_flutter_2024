@@ -1,6 +1,6 @@
 # code4fun_flutter_2024
 
-A new Flutter project.
+A new Flutter project in code4fun
 
 ## Getting Started
 
