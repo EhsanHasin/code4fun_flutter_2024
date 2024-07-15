@@ -22,8 +22,6 @@ void main() {
     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
     children: [cancelButton,goButton],
   );
-  Expanded expandedRow = Expanded(child: myRow,);
-  Expanded expandedText = Expanded(child: txt1);
   Column culumn = Column(mainAxisAlignment: MainAxisAlignment.center,
     children: [c,sizedBox,cc,sizedBox, myRow],
   );
