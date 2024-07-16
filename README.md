@@ -1,9 +1,11 @@
 # code4fun_flutter_2024
 
 A new Flutter project in code4fun
-B Flutter project in code4fun--by abdul Razeq
+You shoul not user upercase B in this file 😒-->B Flutter project in code4fun--by abdul Razeq
 
 ## Getting Started
+
+Our class is amazing and we have a kind heart teacher 😊 "AbdulSamad said"
 
 This project is a starting point for a Flutter application.
 
