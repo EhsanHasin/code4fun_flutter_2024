@@ -20,7 +20,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class SecondPage extends StatelessWidget {
 
   var id, name, phone;

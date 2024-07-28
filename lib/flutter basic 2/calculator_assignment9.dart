@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
                   // print(result);
                   controller.clear();
                 });
-              }, child: Text("Calculate")),
+              }, child: Text("Calculate ")),
             ),
             Text("Result = $result"),
           ],
