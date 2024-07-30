@@ -29,35 +29,33 @@ class _MyAppState extends State<MyApp> {
                 },
                 child: Text("Click me")),
             GestureDetector(
-              child: Text("Click Me"),
-              onTap: () {
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(SnackBar(content: Text("Hey for text")));
+              onTap: (){
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("you clicked on text")));
               },
+                child: Text("Click Me")
             ),
             GestureDetector(
-                child: Container(
-              width: 200,
-              height: 100,
-              color: Colors.lightBlueAccent,
-              child: Text("Long Click Me"),
-            ),
               onLongPress: (){
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(SnackBar(content: Text("long press on container")));
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Container is long Pressed")));
               },
+              child: Container(
+                            width: 200,
+                            height: 100,
+                            color: Colors.lightBlueAccent,
+                            child: Text("Long Click Me"),
+                          ),
             ),
+            SizedBox(height: 10,),
             GestureDetector(
+              onDoubleTap: (){
+                ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Container is double cliked")));
+              },
               child: Container(
                 width: 200,
                 height: 100,
                 color: Colors.lightBlueAccent,
                 child: Text("Double Click Me"),
               ),
-              onDoubleTap: (){
-                ScaffoldMessenger.of(context)
-                    .showSnackBar(SnackBar(content: Text("Double click on container")));
-              },
             ),
           ],
         ),
