@@ -18,14 +18,13 @@ class MyApp extends StatelessWidget {
             crossAxisCount: 3,
             crossAxisSpacing: 3,
             mainAxisSpacing: 2,
-            mainAxisExtent: 200,
-            childAspectRatio: 50),
+            mainAxisExtent: 200),
         scrollDirection: Axis.vertical,
         reverse: false,
         children: [
           GridTile(
             header: Text("header"),
-            footer: Text('footer'),
+            footer: Center(child: Text('footer')),
             child: Container(
                 color: Colors.redAccent, child: Center(child: Text('item'))),
           ),

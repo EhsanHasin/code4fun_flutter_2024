@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       body: GridView.count(
         crossAxisCount: 3,
         crossAxisSpacing: 2,
-        mainAxisSpacing: 2,
+        mainAxisSpacing: 7,
         children: [
           getGridTitle(),
           getGridTitle(),

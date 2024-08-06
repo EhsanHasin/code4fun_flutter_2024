@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       body: GridView.builder(
         itemCount: 30,
         gridDelegate:
-            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2, crossAxisSpacing: 2, mainAxisSpacing: 2),
+            SliverGridDelegateWithMaxCrossAxisExtent(maxCrossAxisExtent: 200, crossAxisSpacing: 2, mainAxisSpacing: 2),
         itemBuilder: (BuildContext context, int index) {
           return getGridTitle(index);
         },

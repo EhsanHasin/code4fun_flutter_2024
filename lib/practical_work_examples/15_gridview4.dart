@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
         crossAxisSpacing: 2,
         mainAxisSpacing: 2,
         maxCrossAxisExtent: 300,
+        scrollDirection: Axis.horizontal,
         children: [
           getGridTitle(),
           getGridTitle(),
