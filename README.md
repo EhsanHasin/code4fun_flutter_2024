@@ -1,7 +1,10 @@
 # code4fun_flutter_2024
 
 A new Flutter project in code4fun
-You shoul not user upercase B in this file 😒-->B Flutter project in code4fun--by abdul Razeq
+
+# Code4fun project would change our mobile application development skills.
+
+B Flutter project in code4fun--by abdul Razeq
 
 ## Getting Started
 
@@ -17,3 +20,4 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+This project is a starting point for a Flutter application whith Farhad
