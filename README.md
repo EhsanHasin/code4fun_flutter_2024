@@ -1,23 +1,7 @@
-# code4fun_flutter_2024
+# Code4Fun Flutter Framework Cource in 2024
 
-A new Flutter project in code4fun
+this project is working during classes. it is like an all in one pack.
 
-# Code4fun project would change our mobile application development skills.
+## Studetns
+![IMG_2874](https://github.com/user-attachments/assets/7575b569-8445-4e87-8b60-ef43cff24b80)
 
-B Flutter project in code4fun--by abdul Razeq
-
-## Getting Started
-
-Our class is amazing and we have a kind heart teacher 😊 "AbdulSamad said"
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-This project is a starting point for a Flutter application whith Farhad
