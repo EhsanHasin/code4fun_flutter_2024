@@ -26,23 +26,26 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: Column(
-        children: [
-          AnimatedContainer(
-            duration: Duration(seconds: 2),
-            child: Text("This is an Animated Container"),
-            width: size,
-            height: size,
-            color: color,
-          ),
-          ElevatedButton(onPressed: (){
-            setState(() {
-              // size = size + 100;
-              size += 50;
-              color = Colors.red;
-            });
-          }, child: Text("Change"))
-        ],
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            AnimatedContainer(
+              duration: Duration(seconds: 2),
+              child: Text("This is an Animated Container"),
+              width: size,
+              height: size,
+              color: color,
+            ),
+            ElevatedButton(onPressed: (){
+              setState(() {
+                // size = size + 100;
+                size += 50;
+                color = Colors.red;
+              });
+            }, child: Text("Change"))
+          ],
+        ),
       ),
     );
   }

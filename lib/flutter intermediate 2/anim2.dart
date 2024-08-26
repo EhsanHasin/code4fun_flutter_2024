@@ -52,7 +52,7 @@ class _MyAppState extends State<MyApp> {
                 )),
             ElevatedButton(onPressed: () {
               setState(() {
-                // if(opc2 == 0.0)
+                // if(opc2 == 0.0)x
                 //   opc2 = 1.0;
                 // else
                 //   opc2 = 0.0;
