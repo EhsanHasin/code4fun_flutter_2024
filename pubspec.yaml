@@ -9,6 +9,9 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   google_fonts: ^6.2.1
+  path_provider: ^2.1.4
+  sqflite: ^2.3.3+1
+  shared_preferences: ^2.3.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -19,6 +22,7 @@ flutter:
   assets:
     - assets/images/im1.jpg
     - assets/images/im2.jpg
+    - assets/images/wassa-logo.gif
 
   # To add assets to your application, add an assets section, like this:
 #  assets:
